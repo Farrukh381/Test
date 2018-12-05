@@ -14,5 +14,7 @@ public class SipSettings extends PreferenceActivity {
         // They're all in the XML file res/xml/preferences.xml.
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.preferences);
+
+        int changed=1;
     }
 }
