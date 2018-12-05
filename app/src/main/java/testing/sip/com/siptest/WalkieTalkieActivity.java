@@ -341,6 +341,8 @@ public class WalkieTalkieActivity extends AppCompatActivity implements View.OnTo
         Intent settingsActivity = new Intent(getBaseContext(),
                 SipSettings.class);
         startActivity(settingsActivity);
+
+        int j=0;
     }
 
 }
